@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "724292131763",
+    "project_id": "videochat-30712",
+    "storage_bucket": "videochat-30712.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724292131763:android:c098dd8f758693460449c6",
+        "android_client_info": {
+          "package_name": "com.codingstuff.loginandsignup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724292131763-n1focqkl4oa0munpakal3mnumip2je9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--Gnbi32OEG8Qt1JuUMYBmLhq7zgIDvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724292131763-n1focqkl4oa0munpakal3mnumip2je9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724292131763:android:ab9c1555f906ac7a0449c6",
+        "android_client_info": {
+          "package_name": "com.tsu.videostreaming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724292131763-n1focqkl4oa0munpakal3mnumip2je9d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB--Gnbi32OEG8Qt1JuUMYBmLhq7zgIDvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724292131763-n1focqkl4oa0munpakal3mnumip2je9d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
