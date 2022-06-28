@@ -1,46 +1,26 @@
 package com.tsu.videostreaming
 
+
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuInflater
-import android.view.MenuItem
-import android.widget.Button
-import com.google.firebase.auth.FirebaseAuth
-import com.tsu.videostreaming.agora.StreamingActivity
+import androidx.appcompat.app.AppCompatActivity
+import com.tsu.videostreaming.databinding.ActivityWelcomeBinding
+
 
 class WelcomeActivity : AppCompatActivity() {
-    lateinit var btncall:Button
+    lateinit var binding:ActivityWelcomeBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        btncall=findViewById(R.id.btncall)
+        setContentView(R.layout.activity_welcome)
+        binding = ActivityWelcomeBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        btncall.setOnClickListener{
-            val intent = Intent(this, StreamingActivity::class.java)
+        binding.Joinbnt.setOnClickListener{
+            val intent = Intent(this, SignInActivity::class.java)
             startActivity(intent)
         }
 
     }
-
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
-    }
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.go_to_Signin -> {
-                FirebaseAuth.getInstance().signOut()
-                val intent = Intent(this, SignInActivity::class.java)
-                startActivity(intent)
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
-
 
 }
