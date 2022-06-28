@@ -58,12 +58,16 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3d116ec0470a4485b6d904e433e2ac6f/transformed/storage-1.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a1c8f0e0786ac0a60fa5bff59556e70f/transformed/monitor-1.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/069a7e2d1f5046916eae548ba0b14745/transformed/ui-test-manifest-1.1.0-beta01-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/fed15f5d68cae283c660197856c04655/transformed/firebase-auth-ktx-21.0.5-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1dbcbf6263686b0ba60c0abc5f0daa9e/transformed/firebase-auth-21.0.6-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/adf4e03a59392ef8882b9d7f62706b79/transformed/play-services-auth-18.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/39a67b772b1d2c7ef3f85d64720c5220/transformed/viewpager2-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6ae7ca00c1924bdb91f74e573b04ae39/transformed/play-services-auth-api-phone-17.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6569a1bb9c11c61e1ded980fea437701/transformed/play-services-safetynet-17.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1d901044f2112bf07c34b2d0bab5bb69/transformed/firebase-auth-interop-20.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/a519d9342bcd6f262ee83d3f3607414f/transformed/firebase-common-20.1.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/c8a7132a333b47476fd2f686dceade4d/transformed/firebase-common-ktx-20.1.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/e98d242c957e481488de4e290b7aa131/transformed/firebase-common-20.1.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/d81109e5879fddbb85e1f581f3027a4b/transformed/play-services-auth-base-17.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8d6bd9767a488af69ea513d2df48b9e8/transformed/play-services-base-17.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/cd72c3123f9425370f5e1278faa0ccef/transformed/play-services-tasks-18.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4a5df41342fb6ab5635f0e823a95a25c/transformed/play-services-basement-18.0.0-api.jar</arg>
@@ -79,9 +83,9 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/fa6228f23603cbe635aea79c61d8ebf4/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/23d600a2abe00410cfe88100a03d01e8/transformed/vectordrawable-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8f76ce64a74591154f95fc0fc6e9a2b0/transformed/browser-1.4.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/373dc0bca053a38ce949bf0fa095ca45/transformed/viewpager-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b18fa32cb1948c6246665ad3a1fc1c2b/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b3a61185ec27f6f1cecca9f27a50a4ab/transformed/loader-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/373dc0bca053a38ce949bf0fa095ca45/transformed/viewpager-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/15b33a4368a434a7f528b76658b7efbc/transformed/recyclerview-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/dba5de6763585d63e6a0e6ab866cebc8/transformed/customview-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/4c78ab7f7fe6d0884c4444d3ab7a5670/transformed/core-1.7.0-api.jar</arg>
@@ -283,8 +287,12 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-tasks:18.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-safetynet:17.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth-interop:20.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-common:20.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-common:20.1.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-components:17.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-auth-ktx:21.0.5@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.firebase:firebase-common-ktx:20.1.1@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth:18.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-auth-base:17.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: de.hdodenhof:circleimageview:3.1.0@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="videostreaming.app.main" />

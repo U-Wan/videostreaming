@@ -10,7 +10,7 @@ import android.widget.Button
 import com.google.firebase.auth.FirebaseAuth
 import com.tsu.videostreaming.agora.StreamingActivity
 
-class ProfileActivity : AppCompatActivity() {
+class ProfileActivity2 : AppCompatActivity() {
     lateinit var btncall:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {

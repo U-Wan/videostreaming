@@ -1,13 +1,15 @@
 package com.tsu.videostreaming.agora
+import androidx.compose.foundation.background
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.Button
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Text
-import androidx.compose.material.TextField
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Color.Companion.Yellow
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.flow.collectLatest
 
@@ -22,9 +24,9 @@ fun RoomScreen(
         }
     }
     Column(
-        modifier = Modifier.fillMaxSize(),
+        modifier = Modifier.background(Color(0xFF00638A)).fillMaxSize(),
         verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.End
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
         TextField(
             value = viewModel.roomName.value.text,
@@ -38,8 +40,13 @@ fun RoomScreen(
         viewModel.roomName.value.error?.let {
             Text(text = it, color = MaterialTheme.colors.error)
         }
-        Spacer(modifier = Modifier.height(8.dp))
-        Button(onClick = viewModel::onJoinRoom) {
+        Spacer(modifier = Modifier.height(20.dp))
+        Button(onClick = viewModel::onJoinRoom,
+            colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xFFF64B05)),
+            modifier = Modifier.width(150.dp).height(50.dp),
+            shape = RoundedCornerShape(24.dp)
+        ) {
+
             Text(text = "Join")
         }
     }

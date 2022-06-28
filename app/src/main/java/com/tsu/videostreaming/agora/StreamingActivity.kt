@@ -48,6 +48,8 @@ class StreamingActivity : ComponentActivity() {
                         ) {
                             val roomName = it.arguments?.getString("roomName") ?: return@composable
                             VideoScreen(
+
+                                //aq gadavawodebt
                                 roomName = roomName,
                                 onNavigateUp = navController::navigateUp
                             )
