@@ -25,7 +25,6 @@
             android:text="Welcome!"
             android:textColor="#5B2420"
             android:gravity="center"
-        android:background="#F4DF71"
             android:layout_gravity="center"
             android:textSize="35sp"
     />

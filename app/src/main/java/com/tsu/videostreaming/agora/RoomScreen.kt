@@ -24,7 +24,7 @@ fun RoomScreen(
         }
     }
     Column(
-        modifier = Modifier.background(Color(0xFF00638A)).fillMaxSize(),
+        modifier = Modifier.fillMaxSize(),
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
