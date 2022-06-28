@@ -16,8 +16,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginAndSignUp">
+
+        <activity android:name=".WelcomeActivity"
+            android:exported="true"/>
+
         <activity
-            android:name=".WelcomeActivity"
+            android:name=".SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
