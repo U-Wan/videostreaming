@@ -19,7 +19,7 @@ class SignInActivity : AppCompatActivity() {
 
         firebaseAuth = FirebaseAuth.getInstance()
         binding.textView.setOnClickListener {
-//            val intent = Intent(this, SignUpActivity::class.java)
+            val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
         }
 
@@ -49,7 +49,7 @@ class SignInActivity : AppCompatActivity() {
         super.onStart()
 
         if(firebaseAuth.currentUser != null){
-//            val intent = Intent(this, welcomeActivity::class.java)
+            val intent = Intent(this, welcomeActivity::class.java)
             startActivity(intent)
         }
     }
