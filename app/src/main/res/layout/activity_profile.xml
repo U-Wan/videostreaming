@@ -6,7 +6,7 @@
               android:layout_height="match_parent"
               android:background="@drawable/walpaper"
               android:orientation="vertical"
-              tools:context=".ProfileActivity2">
+              tools:context=".ProfileActivity">
 
     <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/painharoldimg"
@@ -25,12 +25,14 @@
             android:text="Welcome!"
             android:textColor="#5B2420"
             android:gravity="center"
+        android:background="#F4DF71"
             android:layout_gravity="center"
-            android:textSize="25sp"
+            android:textSize="35sp"
     />
     <Button
             android:id="@+id/btncall"
             android:layout_margin="30dp"
+
             android:layout_width="match_parent"
             android:background="@drawable/round_btn"
             android:layout_height="wrap_content"

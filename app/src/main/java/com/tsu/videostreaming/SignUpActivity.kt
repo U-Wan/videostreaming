@@ -43,7 +43,7 @@ class SignUpActivity : AppCompatActivity() {
                             val editor = sharedPreferences.edit()
                             editor.putString("name", name)
                             editor.commit()
-                            val intent = Intent(this, ProfileActivity2::class.java)
+                            val intent = Intent(this, ProfileActivity::class.java)
                             startActivity(intent)
                         } else {
                             Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()

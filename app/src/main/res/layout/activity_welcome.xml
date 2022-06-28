@@ -9,7 +9,8 @@
            android:padding="16dp"
            tools:context=".WelcomeActivity"
            tools:layout_editor_absoluteX="-1dp"
-           tools:layout_editor_absoluteY="22dp">
+           tools:layout_editor_absoluteY="22dp"
+    >
 
     <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/painharoldimg"

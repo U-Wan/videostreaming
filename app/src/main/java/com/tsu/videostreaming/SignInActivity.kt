@@ -42,7 +42,7 @@ class SignInActivity : AppCompatActivity() {
 
                 firebaseAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener {
                     if (it.isSuccessful) {
-                        val intent = Intent(this, ProfileActivity2::class.java)
+                        val intent = Intent(this, ProfileActivity::class.java)
                         startActivity(intent)
                     } else {
                         Toast.makeText(this, it.exception.toString(), Toast.LENGTH_SHORT).show()
@@ -57,7 +57,7 @@ class SignInActivity : AppCompatActivity() {
         val googleSignInOptions =
             GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken("somethinghere")
-             //   .requestIdToken(getString(R.string.default_web_client_id))
+                //   .requestIdToken(getString(R.string.default_web_client_id))
                 .requestEmail()
                 .build()
         googleSignInClient = GoogleSignIn.getClient(this, googleSignInOptions)
@@ -151,7 +151,7 @@ class SignInActivity : AppCompatActivity() {
         super.onStart()
 
         if(firebaseAuth.currentUser != null){
-            val intent = Intent(this, ProfileActivity2::class.java)
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
     }
