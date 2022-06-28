@@ -18,6 +18,7 @@
         android:theme="@style/Theme.LoginAndSignUp">
 
         <activity android:name=".WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
             android:exported="true"/>
 
         <activity android:name=".SignUpActivity"
